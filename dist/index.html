@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>Prajwal | Full Stack Developer & UI/UX Designer Portfolio</title>
+    <meta name="description" content="Portfolio of Prajwal, a Full Stack Developer and UI/UX Designer specializing in building beautiful, modern, high-performance web applications.">
+    <meta name="keywords" content="Prajwal, Full Stack Developer, UI/UX Designer, Portfolio, Web Developer, React, Node.js, JavaScript, CSS, HTML">
+    <meta name="author" content="Prajwal">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Prajwal | Full Stack Developer & UI/UX Designer">
+    <meta property="og:description" content="Portfolio of Prajwal, a Full Stack Developer and UI/UX Designer specializing in building beautiful, modern, high-performance web applications.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS Style Sheet -->
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+  <script type="module" crossorigin src="/assets/index-CYYZvrBd.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BBx1Qxgu.css">
+</head>
+<body>
+
+    <!-- Dynamic Glowing Blobs for Ambient Background -->
+    <div class="ambient-glow" id="cursor-glow"></div>
+    <div class="floating-blob blob-1"></div>
+    <div class="floating-blob blob-2"></div>
+    <div class="floating-blob blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">
+                <span class="gradient-text">&lt;Prajwal /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" id="nav-link-home">Home</a>
+                <a href="#about" class="nav-link" id="nav-link-about">About</a>
+                <a href="#services" class="nav-link" id="nav-link-services">Services</a>
+                <a href="#projects" class="nav-link" id="nav-link-projects">Work</a>
+                <a href="#contact" class="nav-link" id="nav-link-contact">Contact</a>
+                <a href="#contact" class="btn btn-secondary nav-btn" id="nav-btn-hire">Hire Me</a>
+            </nav>
+
+            <button class="hamburger-menu" id="hamburger" aria-label="Toggle menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-glow" id="hero-badge">
+                        <span class="pulse-indicator"></span> Available for Projects
+                    </div>
+                    <h1 class="hero-title">
+                        Creating Digital <br>
+                        <span class="gradient-text-alt">Masterpieces</span> That <br>
+                        Drive Results.
+                    </h1>
+                    <p class="hero-subtitle">
+                        Hi, I'm <span class="highlight">Prajwal</span>. I am a 
+                        <span class="typewriter-container">
+                            <span id="typewriter"></span><span class="cursor">|</span>
+                        </span>
+                    </p>
+                    <p class="hero-description">
+                        I craft high-performance full-stack applications with beautiful interfaces, clean architectural code, and exceptional user experiences.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary" id="hero-btn-work">
+                            View My Work <i data-lucide="arrow-up-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline" id="hero-btn-contact">
+                            Let's Connect <i data-lucide="message-square"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="glass-terminal animate-float">
+                        <div class="terminal-header">
+                            <div class="terminal-dot red"></div>
+                            <div class="terminal-dot yellow"></div>
+                            <div class="terminal-dot green"></div>
+                            <span class="terminal-title">developer.js</span>
+                        </div>
+                        <div class="terminal-body">
+                            <pre><code><span class="keyword">const</span> developer = {
+  name: <span class="string">'Prajwal'</span>,
+  skills: [<span class="string">'Frontend'</span>, <span class="string">'Backend'</span>, <span class="string">'UI/UX'</span>],
+  passions: [<span class="string">'AI'</span>, <span class="string">'Clean Code'</span>, <span class="string">'Aesthetics'</span>],
+  readyToBuild: <span class="boolean">true</span>
+};
+
+<span class="comment">// Let's create something extraordinary</span>
+<span class="keyword">if</span> (developer.readyToBuild) {
+  portfolio.startCollaborating();
+}</code></pre>
+                        </div>
+                    </div>
+                    
+                    <!-- Micro Stats Cards -->
+                    <div class="stats-glass card-1">
+                        <div class="stats-icon text-cyan">
+                            <i data-lucide="code-2"></i>
+                        </div>
+                        <div class="stats-info">
+                            <span class="stats-value">3+</span>
+                            <span class="stats-label">Years Exp</span>
+                        </div>
+                    </div>
+                    <div class="stats-glass card-2">
+                        <div class="stats-icon text-purple">
+                            <i data-lucide="sparkles"></i>
+                        </div>
+                        <div class="stats-info">
+                            <span class="stats-value">25+</span>
+                            <span class="stats-label">Completed Projects</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down">
+                <span>Scroll Down</span>
+                <i data-lucide="chevron-down" class="bounce"></i>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">About Me</span>
+                    <h2 class="section-title">My Journey & Expertise</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-bio">
+                        <h3>Who I Am</h3>
+                        <p class="bio-paragraph">
+                            I am a designer-developer hybrid who loves bridging the gap between elegant UI visual design and powerful, production-grade backend logic. I enjoy solving complex engineering challenges and creating smooth animations that delight users.
+                        </p>
+                        <p class="bio-paragraph">
+                            Over the years, I've worked with client companies, startups, and open-source contributors to deliver web applications that don't just work flawlessly under the hood, but also present a premium, polished user interface.
+                        </p>
+                        
+                        <div class="download-container">
+                            <a href="#" class="btn btn-outline" id="btn-download-cv">
+                                Download Resume <i data-lucide="download"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="about-skills">
+                        <h3>Tech Stack</h3>
+                        <div class="skills-categories">
+                            <button class="skills-tab active" data-category="frontend">Frontend</button>
+                            <button class="skills-tab" data-category="backend">Backend</button>
+                            <button class="skills-tab" data-category="design">Tools & Other</button>
+                        </div>
+                        
+                        <div class="skills-list-container">
+                            <!-- Frontend Skills (Active by default) -->
+                            <div class="skills-panel active" id="skills-frontend">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>HTML5 & CSS3 / Modern Layouts</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>React / Next.js</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>JavaScript / TypeScript</span>
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Tailwind CSS & SCSS</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Backend Skills -->
+                            <div class="skills-panel" id="skills-backend">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Node.js / Express</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 88%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Python / FastAPI</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>SQL / PostgreSQL</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>RESTful APIs / GraphQL</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Design / Tools -->
+                            <div class="skills-panel" id="skills-design">
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Figma (UI/UX & Prototyping)</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Git / GitHub Workflows</span>
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 92%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Docker & Cloud (AWS / Vercel)</span>
+                                        <span>78%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 78%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-info">
+                                        <span>Linux System Administration</span>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="skill-bar-bg">
+                                        <div class="skill-bar-fill" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education/Experience timeline -->
+                <div class="timeline-container">
+                    <h3 class="timeline-heading text-center">My Timeline</h3>
+                    <div class="timeline">
+                        <div class="timeline-item left">
+                            <div class="timeline-content glass-card">
+                                <span class="timeline-date">2024 - Present</span>
+                                <h4>Lead Full Stack Engineer</h4>
+                                <span class="timeline-org">Apex Tech Labs</span>
+                                <p>Architected responsive web platforms, engineered microservices, and mentored junior devs while transitioning core infrastructure to Next.js.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item right">
+                            <div class="timeline-content glass-card">
+                                <span class="timeline-date">2022 - 2024</span>
+                                <h4>Web Developer & UI Designer</h4>
+                                <span class="timeline-org">Nova Digital Studio</span>
+                                <p>Created gorgeous user interfaces in Figma and developed interactive client websites using React and node.js, improving conversions by 40%.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item left">
+                            <div class="timeline-content glass-card">
+                                <span class="timeline-date">2019 - 2022</span>
+                                <h4>B.S. in Computer Science</h4>
+                                <span class="timeline-org">Tech Institute of Science</span>
+                                <p>Graduated with honors, focusing on software engineering principles, algorithms, database systems, and human-computer interaction designs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services section-spacing bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">What I Offer</span>
+                    <h2 class="section-title">My Technical Services</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card glass-card">
+                        <div class="service-icon icon-cyan">
+                            <i data-lucide="layout"></i>
+                        </div>
+                        <h3>Frontend Architecture</h3>
+                        <p>Designing modern, responsive, and performance-optimized frontends. Using cutting-edge structures to deliver blazing-fast page loads and pixel-perfect UIs.</p>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card glass-card">
+                        <div class="service-icon icon-purple">
+                            <i data-lucide="server"></i>
+                        </div>
+                        <h3>Robust Backend & APIs</h3>
+                        <p>Constructing scalable backend infrastructure, reliable server architectures, and clean database integrations. Focus on security and quick API responses.</p>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card glass-card">
+                        <div class="service-icon icon-pink">
+                            <i data-lucide="palette"></i>
+                        </div>
+                        <h3>UI/UX Prototyping</h3>
+                        <p>Wireframing, sketching, and building full-scale functional prototypes in Figma. Establishing intuitive and satisfying user journeys and modern typography hierarchies.</p>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card glass-card">
+                        <div class="service-icon icon-yellow">
+                            <i data-lucide="cpu"></i>
+                        </div>
+                        <h3>AI & Automation Integrations</h3>
+                        <p>Integrating large language models, building automated workflows, and implementing smart agents into existing business systems for automated productivity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">My Masterpieces</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Projects Filters -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Work</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                    <button class="filter-btn" data-filter="ai">AI / Automation</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card" data-category="fullstack" id="proj-1">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient gradient-blue"></div>
+                            <div class="project-img-placeholder">
+                                <i data-lucide="bar-chart-3" class="project-placeholder-icon"></i>
+                                <span class="project-placeholder-text">SaaS Analytics Engine</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn-project-detail btn btn-sm btn-primary" data-project-id="1">Details</button>
+                                <a href="#" class="btn btn-sm btn-outline"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Full Stack</span>
+                            <h3 class="project-title">AI-Powered Analytics Dashboard</h3>
+                            <p class="project-desc">A beautiful analytics dashboard visualizing real-time SaaS application usage with integrated predictive churn modeling.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>PostgreSQL</span>
+                                <span>Chart.js</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card" data-category="frontend" id="proj-2">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient gradient-purple"></div>
+                            <div class="project-img-placeholder">
+                                <i data-lucide="shopping-bag" class="project-placeholder-icon"></i>
+                                <span class="project-placeholder-text">Eco-Store Hub</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn-project-detail btn btn-sm btn-primary" data-project-id="2">Details</button>
+                                <a href="#" class="btn btn-sm btn-outline"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Frontend</span>
+                            <h3 class="project-title">Eco-friendly E-commerce UI</h3>
+                            <p class="project-desc">A fluid, interactive shopfront utilizing layout transitions, filters, and dynamic local cart cache systems.</p>
+                            <div class="project-tech">
+                                <span>Next.js</span>
+                                <span>Tailwind CSS</span>
+                                <span>Framer Motion</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card" data-category="ai" id="proj-3">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient gradient-pink"></div>
+                            <div class="project-img-placeholder">
+                                <i data-lucide="terminal" class="project-placeholder-icon"></i>
+                                <span class="project-placeholder-text">Agentic Workflow Suite</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn-project-detail btn btn-sm btn-primary" data-project-id="3">Details</button>
+                                <a href="#" class="btn btn-sm btn-outline"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">AI / Automation</span>
+                            <h3 class="project-title">Smart Task Automation Agent</h3>
+                            <p class="project-desc">An orchestration system that connects web applications to local tasks via a secure local LLM gateway.</p>
+                            <div class="project-tech">
+                                <span>FastAPI</span>
+                                <span>LangChain</span>
+                                <span>Python</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass-card" data-category="fullstack" id="proj-4">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient gradient-orange"></div>
+                            <div class="project-img-placeholder">
+                                <i data-lucide="users" class="project-placeholder-icon"></i>
+                                <span class="project-placeholder-text">Collab Canvas</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn-project-detail btn btn-sm btn-primary" data-project-id="4">Details</button>
+                                <a href="#" class="btn btn-sm btn-outline"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Full Stack</span>
+                            <h3 class="project-title">Realtime Collaborative Workspace</h3>
+                            <p class="project-desc">A multiplayer whiteboard tool with real-time text chatting, drawing tools, and document editing sockets.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Socket.io</span>
+                                <span>Express</span>
+                                <span>Redis</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card glass-card" data-category="frontend" id="proj-5">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient gradient-green"></div>
+                            <div class="project-img-placeholder">
+                                <i data-lucide="music" class="project-placeholder-icon"></i>
+                                <span class="project-placeholder-text">Aura Sound Player</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn-project-detail btn btn-sm btn-primary" data-project-id="5">Details</button>
+                                <a href="#" class="btn btn-sm btn-outline"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Frontend</span>
+                            <h3 class="project-title">Ambient Soundscape Audio Player</h3>
+                            <p class="project-desc">A visualizer application supporting spatial audio controls, customizable white-noise mixers, and relaxing UI visuals.</p>
+                            <div class="project-tech">
+                                <span>Vanilla HTML/CSS</span>
+                                <span>Web Audio API</span>
+                                <span>Canvas JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="project-card glass-card" data-category="ai" id="proj-6">
+                        <div class="project-img-wrapper">
+                            <div class="project-overlay-gradient gradient-cyan"></div>
+                            <div class="project-img-placeholder">
+                                <i data-lucide="brain-circuit" class="project-placeholder-icon"></i>
+                                <span class="project-placeholder-text">CodeSense AI</span>
+                            </div>
+                            <div class="project-actions">
+                                <button class="btn-project-detail btn btn-sm btn-primary" data-project-id="6">Details</button>
+                                <a href="#" class="btn btn-sm btn-outline"><i data-lucide="external-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">AI / Automation</span>
+                            <h3 class="project-title">LLM Code Reviewer Extension</h3>
+                            <p class="project-desc">A code intelligence platform that flags bad formatting patterns and automatically drafts Git pull request writeups.</p>
+                            <div class="project-tech">
+                                <span>TypeScript</span>
+                                <span>Gemini API</span>
+                                <span>Node.js</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-spacing bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tagline">Get In Touch</span>
+                    <h2 class="section-title">Let's Create Something Great</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Information Details -->
+                    <div class="contact-info-panel">
+                        <h3>Contact Info</h3>
+                        <p class="contact-intro">Whether you have a new idea to develop, an existing system to refactor, or just want to chat tech, feel free to drop a message!</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon text-cyan">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="label">Email Me</span>
+                                    <a href="mailto:prajwal@example.com" class="value">prajwal@example.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon text-purple">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="label">Location</span>
+                                    <span class="value">Bangalore, India</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon text-pink">
+                                    <i data-lucide="calendar"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span class="label">Availability</span>
+                                    <span class="value">Freelance / Full-Time Contract</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Social Handles -->
+                        <div class="social-links-container">
+                            <h4>Find Me Around</h4>
+                            <div class="social-links">
+                                <a href="https://github.com" target="_blank" class="social-circle" aria-label="GitHub"><i data-lucide="github"></i></a>
+                                <a href="https://linkedin.com" target="_blank" class="social-circle" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                                <a href="https://twitter.com" target="_blank" class="social-circle" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                                <a href="https://dribbble.com" target="_blank" class="social-circle" aria-label="Dribbble"><i data-lucide="dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-panel glass-card">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder=" " class="form-control">
+                                <label for="name" class="floating-label">Full Name</label>
+                                <span class="input-focus-line"></span>
+                                <span class="error-msg" id="name-error">Please enter your name</span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder=" " class="form-control">
+                                <label for="email" class="floating-label">Email Address</label>
+                                <span class="input-focus-line"></span>
+                                <span class="error-msg" id="email-error">Please enter a valid email address</span>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required placeholder=" " class="form-control">
+                                <label for="subject" class="floating-label">Subject</label>
+                                <span class="input-focus-line"></span>
+                                <span class="error-msg" id="subject-error">Please enter a subject</span>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="message" name="message" rows="5" required placeholder=" " class="form-control"></textarea>
+                                <label for="message" class="floating-label">Your Message</label>
+                                <span class="input-focus-line"></span>
+                                <span class="error-msg" id="message-error">Please enter your message</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                Send Message <i data-lucide="send"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <span class="gradient-text">&lt;Prajwal /&gt;</span>
+                </a>
+                <p class="footer-desc">Crafting modern, digital experiences that combine innovative interfaces with engineered backends.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Let's chat</h4>
+                <p>Feel free to reach out via email directly if you have detailed RFPs or agency work inquiries.</p>
+                <a href="mailto:prajwal@example.com" class="footer-email-link">
+                    prajwal@example.com <i data-lucide="mail"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 Prajwal. All rights reserved.</p>
+                <p>Made with <span class="heart-pulse"><i data-lucide="heart" class="text-pink"></i></span> in India</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Project Modal (Popup) -->
+    <div class="project-modal" id="project-modal">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close" aria-label="Close modal">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="modal-body" id="modal-body">
+                <!-- Content will be dynamically inserted here by script.js -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Interactive Contact Success Popup Alert -->
+    <div class="custom-alert" id="success-alert">
+        <div class="alert-icon">
+            <i data-lucide="check-circle-2"></i>
+        </div>
+        <div class="alert-text">
+            <h4>Message Sent!</h4>
+            <p>Thank you for reaching out. I'll get back to you within 24 hours.</p>
+        </div>
+        <button class="alert-close-btn" id="success-alert-close">
+            <i data-lucide="x"></i>
+        </button>
+    </div>
+
+    <!-- JS Logic Scripts -->
+</body>
+</html>
